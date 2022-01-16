@@ -1,0 +1,15 @@
+#quote {
+    z-index: 3;
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 46vh;
+}
+
+#quote span {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,37 @@
+#login-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 24vh;
+}
+
+
+#login-form input::placeholder {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+#login-form input:first-child {
+    border: 0;
+    width: 200px;
+    height: 35px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 7px;
+    width: 15vw;
+    height: auto;
+}
+
+#login-form input:last-child {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+
+#login-form input:first-child:focus {
+    outline: none;
+    border-bottom: 2px solid white;
+}
