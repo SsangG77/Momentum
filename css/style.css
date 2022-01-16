@@ -51,6 +51,7 @@ main {
     justify-content: center;
     position: inherit;
     top: 250px;
+    transition: color 1s ease-in-out;
 }
 
 #weather {

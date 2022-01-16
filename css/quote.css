@@ -8,6 +8,14 @@
     align-items: center;
     position: relative;
     top: 46vh;
+    transition: color 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
+
+#quote:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    
 }
 
 #quote span {
